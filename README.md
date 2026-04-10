@@ -13,3 +13,51 @@ This shows that users utilize memes not as an escape mechanism, but as a tool fo
 Digital humor, in this context, can be considered a form of meaning production, not merely superficial entertainment. The user, instead of fleeing from the crisis, engages with it—not by directly constructing a serious, coherent narrative, but by deconstructing, reassembling, and circulating it. This once again demonstrates that meaning in digital practices is plural and dynamic.
 
 In this dataset, memes are not a result of war or geopolitical tension. On the contrary, they are a tool for reflecting on it, analyzing it, and reinterpreting it. People are laughing, but they are still talking about the same issue.
+
+## Data
+The dataset consists of 35 manually collected memes related to the 2026 Iran–United States conflict. Each entry includes:
+- Post caption (text)
+- Meme text (if present)
+- Caption theme (coded)
+- Meme theme (coded)
+- Image description
+- Source link
+
+The data was manually annotated to capture both explicit and implicit thematic elements.
+
+## Method
+This project uses a qualitative and exploratory approach.
+
+- Themes were coded manually based on interpretive categories such as:
+  - framing
+  - critical
+  - neutral
+  - satire
+  - ideological
+- Multi-label entries were simplified by extracting the dominant theme
+- A cross-tabulation was created to examine relationships between caption themes and meme themes
+
+This approach focuses on meaning production rather than statistical generalization.
+
+## Visualization
+To explore patterns in the dataset, a heatmap was generated showing the relationship between caption themes and meme themes.
+
+![Heatmap](outputs/heatmap.png)
+
+The visualization highlights:
+- The concentration of geopolitical framing
+- The overlap between satire and political critique
+- The absence of a single dominant interpretive pattern
+
+## Key Findings
+- There is no single dominant narrative; interpretations are fragmented
+- Memes function as spaces of negotiation rather than agreement
+- Humor does not act as an escape, but repeatedly returns to geopolitical content
+- Meaning is continuously reconstructed through irony, critique, and repetition
+
+## Project Scope
+This is the first project in an ongoing series exploring digital practices during moments of crisis.
+
+## Author
+Elif Hazal Gougler  
+Media/Digital Anthropology Phd Student
